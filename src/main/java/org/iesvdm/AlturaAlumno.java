@@ -30,8 +30,8 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
                     System.out.println("Inserta el nombre del nuevo alumno:");
                     String nuevoNombre = sc.nextLine();
 
-                    alumnos = añadeNombre(alumnos, nuevoNombre);
-                    alturas = añadeAltura(alturas);
+                    alumnos = aniadeNombre(alumnos, nuevoNombre);
+                    alturas = aniadeAltura(alturas);
                     break;
 
                 case 2: // Pide un nombre, lo busca y pide la altura para modificarla
@@ -120,11 +120,11 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
     }
 
     /**
-     * Añade un alumno al final del array
+     * Aniade un alumno al final del array
      * @param array,nombre
      * @return nuevo
      */
-    static String[] añadeNombre(String[] array, String nombre)
+    static String[] aniadeNombre(String[] array, String nombre)
     {
         String[] nuevo = new String[array.length+1];
 
@@ -139,11 +139,11 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
     }
 
     /**
-     * Añade una altura al final del array con un valor por defecto
+     * Aniade una altura al final del array con un valor por defecto
      * @param array
      * @return nuevo
      */
-    static double[] añadeAltura(double[] array)
+    static double[] aniadeAltura(double[] array)
     {
         double[] nuevo = new double[array.length+1];
         double alturaPorDefecto = 1.5;
@@ -193,7 +193,6 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
             }
             index++;
         }
-
         return posicionEncontrada;
     }
 
