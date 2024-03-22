@@ -105,7 +105,7 @@ public class AlturaAlumno { // Recorrer dos arrays con la misma longitud
         int usuario = 0;
 
         System.out.println("\nElige la opción que quieres realizar:");
-        System.out.println("\t1 -> Añadir nuevo alumno"); // pide nombre y pone por defecto 1,5 de altura
+        System.out.println("\t1 -> Aniadir nuevo alumno"); // pide nombre y pone por defecto 1,5 de altura
         System.out.println("\t2 -> Modificar altura alumno"); // PIDE NOMBRE y luego pide nueva altura
         System.out.println("\t3 -> Mostrar todo"); // Muestra la tabla de nombres con sus alturas
         System.out.println("\t4 -> Incrementar altura"); // Pide el incremento
